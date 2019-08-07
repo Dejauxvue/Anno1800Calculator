@@ -734,8 +734,8 @@ var requestInterval = setInterval(
             if (myJson.jornaleros) {
                 view.populationLevels[5].amount(myJson.jornaleros);
             }
-			 if (myJson.orbreros) {
-                view.populationLevels[6].amount(myJson.orbreros);
+			 if (myJson.obreros) {
+                view.populationLevels[6].amount(myJson.obreros);
             }}
         };
         userAction();
